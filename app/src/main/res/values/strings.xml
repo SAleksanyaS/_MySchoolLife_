@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MySchoolLife</string>
+    <string name="startovoe_no_act">Начать \n Новую игру</string>
+    <string name="startovoe_memory">Воспоминания</string>
+    <string name="startovoe_next">Продолжить</string>
+
+
+    <string name="privietext">В ходе игры\n Необходимо провести диалог с персонажами.\n Желателньно выполнять их просьбы.\n Например, сыграть с ними в игру.</string>
+
+
+    <string name="no_input">Введите данные</string>
+    <string name="test_1">Закончить тест</string>
+    <string name="name">Имя:</string>
+    <string name="char_creation_back">Назад</string>
+    <string name="char_creation">Создание персонажа</string>
+    <string name="char_creation_gender">Выберите пол</string>
+    <string name="char_creation_gender_Woman">Ж</string>
+    <string name="char_creation_gender_Man">М</string>
+    <string name="char_creation_name_text">Придумайте имя и фамилию для вашего персонажа</string>
+    <string name="char_creation_name">Введите имя</string>
+    <string name="char_creation_family">Введите фамилию</string>
+    <string name="char_creation_next">Продолжить</string>
+
+
+</resources>

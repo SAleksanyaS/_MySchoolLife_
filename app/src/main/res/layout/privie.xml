@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialogfon"
+    android:background="@drawable/privie"
+    android:layout_gravity="center"
+    android:scaleType="centerCrop"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/btclose"
+            android:text="X"
+            android:background="@drawable/style_button_white"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_gravity="end"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/privieimg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="40"
+            android:src="@drawable/privie_texxxt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="@string/privietext"
+            android:textColor="@color/black"
+            android:layout_weight="30"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:id="@+id/privietext"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:background="@drawable/style_button_gray"
+            android:layout_weight="10"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:text="@string/char_creation_next"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:id="@+id/btnnext"
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
